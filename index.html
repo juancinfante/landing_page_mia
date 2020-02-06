@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title></title>
+  </head>
+  <body>
+    <header class="contenido">
+      <img src="img\logo.png" class="logo" alt="logo">
+      <nav>
+        <ul class="nav_links">
+          <li> <a href="#planes">Servicios</a> </li>
+          <li> <a href="#sobremi">Sobre mi</a> </li>
+        </ul>
+      </nav>
+      <a href="#contacto" class="contacto"> <button> Contacto </button> </a>
+      <a onclick="openNav()" href="#" class="menu"> &equiv; </a>
+    </header>
+
+    <div class="contenido">
+
+        <div class="overlay" id="mobile_menu">
+          <a href="#" class="close" onclick="closeNav()">&times;</a>
+          <div class="overlay_content">
+             <a href="#planes" onclick="closeNav()">Servicios</a>
+             <a href="#sobremi" onclick="closeNav()">Sobre mi</a>
+          </div>
+        </div>
+
+        <div class="presentacion">
+          <div class="texto-presentacion">
+            <h1>Hola,  soy</h1>
+            <h1 class="typing"></h1>
+          </div>
+        </div>
+
+        <div class="sobre_mi" id="sobremi">
+          <div class="img_sobre_mi">
+            <img src="img/sobremi.jpg" alt="">
+          </div>
+          <div class="text_sobre_mi">
+            <h1>Sobre mi</h1>
+            <p>Hola, me llamo Juan Cruz y soy diseñador y programador web freelancer.
+            Tengo 22 años y curso la carrera de Lic. en Sistemas de Informacion.<br>  </p>
+            <p>Lenguajes:   Java, C, Python </p>
+            <p>Web: HTML5, CSS3, Javascript, AngularJS, PHP, MySQL.</p>
+            <div class="iconos">
+              <a href="https://www.facebook.com/juaninfant3"><i class="fab fa-facebook-square"></i></a>
+              <a href="https://www.instagram.com/juaninfantee/"><i class="fab fa-instagram"></i></a>
+              <a href="https://wa.me/543856137879"><i class="fab fa-whatsapp"></i></a>
+              <a href="#"><i class="fas fa-phone-alt"></i></a>
+            </div>
+          </div>
+        </div>
+
+
+        <h2 class="text-centrado">¿No tienes tu pagina web en 2020? <br>Tu página tendrá las tecnologías más modernas.</h2>
+
+
+        <div class="section-tecnologias">
+          <div class="tecnologia">
+            <img src="img/google_maps.jpg" alt="">
+            <h2>Mapa de Google.</h2>
+            <p>Tu página va a tener integrado el mapa de Google, indispensable para que tus clientes encu
+              entren de una manera rápida y sencilla la ubicación de tu negocio</p>
+          </div>
+          <div class="tecnologia">
+            <img src="img/mensajeria.jpg" alt="">
+            <h2>Botón directo a WhatsApp.</h2>
+            <p>La forma mas fácil y ágil para que tus clientes se contacten con vos, este botón les abrirá la aplicación con tu número de teléfono ya cargado.</p>
+          </div>
+          <div class="tecnologia">
+            <img src="img/responsive.jpg" alt="">
+            <h2>Diseño adaptable (responsive desing).</h2>
+            <p>El diseño de tu página se adaptará al tamaño de  pantalla de tus visitantes, de esta manera la página podrá ser vista correctamente desde celulares, tablets, notebooks, etc.</p>
+          </div>
+        </div>
+
+        <div class="diseño_web">
+          <h1>Diseño web</h1>
+          <p>Sabes que tu producto o servicio va a funcionar pero te cuesta mucho tiempo y esfuerzo darlo a conocer. Con una página web tus clientes podrán conocerte y ver lo que tu negocio tiene para ellos de una manera rápida y sencilla.</p>
+          <a href="#planes"><button>PLANES</button></a>
+        </div>
+
+        <div class="planes" id="planes">
+          <div class="plan">
+            <img src="img/website.svg" alt="" class="icon">
+            <h1>EL COMIENZO</h1>
+            <ul class="lista-plan">
+              <li>1 PAGINA (landing page)</li>
+              <li>DOMINIO</li>
+              <li>1 correo corporativo</li>
+              <li>Enlaces a redes sociales</li>
+              <li>responsive</li>
+              <li>Formulario de contacto</li>
+              <li>-</li>
+              <li>-</li>
+              <li>-</li>
+            </ul>
+            <a href="#contacto"><button>COMENZAR</button></a>
+          </div>
+          <div class="plan">
+            <img src="img/worldwide.svg" alt="" class="icon">
+            <h1>SITIO WEB</h1>
+            <ul class="lista-plan">
+              <li>10 PAGINAS</li>
+              <li>DOMINIO</li>
+              <li>10 correos corporativos</li>
+              <li>Enlaces a redes sociales</li>
+              <li>responsive</li>
+              <li>Formulario de contacto</li>
+              <li>Mapa de google</li>
+              <li>GOOGLE MI NEGOCIO</li>
+              <li>soporte telefonico</li>
+            </ul>
+            <a href="#contacto"><button>COMENZAR</button></a>
+          </div>
+
+        </div>
+
+        <div class="contacto2">
+          <div class="texto-contacto">
+            <h1 id="contacto">¿Hablamos?</h1>
+            <p>Contáme sobre tu empresa, me ayudará a entender mejor tu negocio y objetivos.</p>
+            <p>Podés utilizar la forma de contacto que más te guste.</p>
+          </div>
+          <div class="tipos-contacto">
+            <div class="inner-contacto">
+              <a href="#"><i class="fas fa-mobile-alt"></i></a>
+              <p>+54 385 6137879</p>
+            </div>
+            <div class="inner-contacto">
+              <a href="#"><i class="far fa-envelope"></i></a>
+              <p>juaninfantejj@gmail.com</p>
+            </div>
+          </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="contenido-footer">
+          <div class="copyright">
+            <p> © 2020 Juan Cruz Infante  | Todos los derechos reservados.</p>
+          </div>
+          <div class="redes-sociales">
+            <a href="https://www.facebook.com/juaninfant3"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/juaninfantee/"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/543856137879"><i class="fab fa-whatsapp"></i></a>
+          </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+    <script src="mobile.js"></script>
+    <script src="https://kit.fontawesome.com/c1de055385.js" crossorigin="anonymous"></script>
+  </body>
+</html>
